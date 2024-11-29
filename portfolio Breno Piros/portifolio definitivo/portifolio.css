@@ -1,0 +1,138 @@
+/* estilo geral */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #36363a;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.interface{
+  max-width: 1280px;
+  margin: 0 auto;
+
+}
+
+/* estilo cabeçalho */
+.logo img{
+  width: 40%;
+  padding-top: 10px;
+}
+
+
+
+.header{
+  padding: 40px 10%;
+}
+
+header > .interface{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a{
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  transition: .2s;
+}
+
+header a:hover{
+  color: #4d4dff;
+  transform: scale(1.05);
+}
+
+header nav ul{
+  list-style-type: none;
+
+
+}
+
+header nav ul li{
+  display: inline-block;
+  padding: 0 40px;
+}
+
+header .bpp-contato button{
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #4d4dff;
+  color: white;
+  border:0;
+  border-radius: 30px;
+  cursor: pointer;
+
+}
+
+header .bpp-contato button:hover{
+  box-shadow: 0px 0px 8px #4d4dffcc;
+
+}
+
+.intro button{
+  margin-top: 40px;
+  padding: 15px 60px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #4d4dff;
+  color: white;
+  border:0;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.intro button:hover{
+  box-shadow: 0px 0px 8px #4d4dffcc;
+}
+
+/* começo do site */
+main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6%;
+  background-color: #36363a;
+}
+
+.intro {
+  margin: 8% 8%;
+  color: white;
+}
+
+.intro h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+.intro p {
+  color: #aaaaaa;
+}
+
+.details{
+  margin: 1% 4%;
+}
+.details a{
+  color:#4d4dffc5 ;
+  text-decoration: none;
+  display: inline-block;
+  transition: .2s;
+}
+
+.details a:hover{
+  color: #4d4dff;
+  transform: scale(1.05);
+}
+.details p{
+  color: #aaaaaa;
+}
+.details h2{
+  color: white;
+}
+
+.work{
+  margin-top: 6%;
+}
