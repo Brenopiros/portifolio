@@ -112,27 +112,5 @@ main {
   color: #aaaaaa;
 }
 
-.details{
-  margin: 1% 4%;
-}
-.details a{
-  color:#4d4dffc5 ;
-  text-decoration: none;
-  display: inline-block;
-  transition: .2s;
-}
 
-.details a:hover{
-  color: #4d4dff;
-  transform: scale(1.05);
-}
-.details p{
-  color: #aaaaaa;
-}
-.details h2{
-  color: white;
-}
 
-.work{
-  margin-top: 6%;
-}
